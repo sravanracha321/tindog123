@@ -1,0 +1,489 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">         
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Document</title>
+    <style>
+     body{
+        font-family: "montserrat";
+        background-color: #ff4c68;
+       
+     position: flex;
+        
+     }
+     #title{
+        background-color: #ff4c68;
+        color: #fff;
+     }
+   
+     h1{
+
+        font-family: "merriweather";
+        font-size: 3.5rem;
+        line-height: 1.5;
+        margin-left: 130px;
+     }
+     h2{
+
+font-family: "merriweather";
+font-size: 3.5rem;
+line-height: 1.5;
+}
+    h3{
+
+font-family: "merriweather";
+font-size: 1.5rem;
+}
+p{
+    color: white;
+}
+h3{
+    color: white;
+}
+
+/*---navigation---*/
+.navbar {
+    padding: 0 0 4.5em;
+ 
+}
+
+.navbar-brand {
+    font-family: "merriweather";
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 130px;
+    color: white;
+}
+.navbar-brand:hover{
+        color: darkcyan;
+     }
+
+
+.nav-item {
+    padding: 0 18px;
+    
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.2rem;
+    font-family: "merriweather";
+    
+}
+
+.nav-link:hover{
+     
+     color: darkcyan;
+     text-decoration: underline;
+  }
+
+  .download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    padding: 20px;
+
+}
+
+
+/*features section*/
+#features {
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 4.5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: olive;
+}
+.sravan{
+        color: black;
+     }
+     .kumar{
+        color: black;
+
+     }
+     .vinay{
+        color: black;
+
+     }
+ i:hover{
+  color: darkcyan;
+ }
+
+/*testimonial section*/
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+#press {
+    background-color: yellowgreen;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.anand{
+        height: 400px;
+        width: 1200px;
+        display: flex;
+        position: sticky;
+
+     }
+   
+
+/*pricing section*/
+#pricing {
+    padding: 100PX;
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+.pricing-coloum {
+    padding: 3% 5%;
+}
+
+/* cta section*/
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: "merriweather";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/*footer section*/
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    background-color:yellow;
+}
+
+.social-icon {
+    margin:20px 10px;
+}
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+   </style>
+</head>
+
+<body>
+    <section id="title">
+        <div class="container-fluid">
+            <!---nav bar-->
+            <nav class="navbar navbar-expand-lg bg">
+                <a class="navbar-brand" href="">tindog</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarntoggler demo02">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                                   <a class="nav-link" href="#footer">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                                 <a class="nav-link" href="#pricing">Princing</a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="#cta">Menu</a>
+                        </li>
+                    </ul>
+                    </div>
+
+            </nav>
+            <!--title-->
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="big-heading">Meet New And Intersting Dogs Nearby</h1>
+                    <button type="button"class="btn btn-warning btn-lg download-button"><i class="bi bi-apple">Download</i></button>
+                    <button type="button"class="btn btn-warning btn-lg download-button"><i class="bi bi-facebook">Download</i></button>
+                    <button type="button"class="btn btn-warning btn-lg download-button"><i class="bi bi-google-play">Download</i></button>
+                    <button type="button"class="btn btn-warning btn-lg download-button"><i class="bi bi-whatsapp">Download</i></button>
+                </div>
+                <div class="col-lg-6">
+                <img class="title-image"src=".\images\30.jpg"height="200px">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--features-->
+    <section id="features">
+
+        <div class="row">
+            <div class="features-box col-lg-4">
+             
+                <i class="bi bi-heart"></i>
+               
+                <h3 class="feature-title">Easy to use</h3>
+                <p>so Easy to use even your dog do it</p>
+            </div>
+            <div class="features-box col-lg-4">
+               
+                <i class="bi bi-0-circle"></i>
+                <h3 class="feature-title">Elite clietele</h3>
+                <p>We Have All The Dogs The Great Gods</p>
+            </div>
+    
+            <div class="features-box col-lg-4">
+                <i class="bi bi-person"></i>
+             
+                <h3 class="feature-title">Guaranted to work</h3>
+                <p>Find Love of Your Dogs live or Money Back</p>
+            </div>
+        
+            <div class="features-box col-lg-4">
+                <i class="bi bi-door-open"></i>
+                
+                <h3 class="feature-title">Dogs In</h3>
+                <p>Find Love of Your Dogs live or Money Back</p>
+            </div>
+            <div class="features-box col-lg-4">
+                <i class="bi bi-dribbble"></i>
+              
+                <h3 class="feature-title">Dogs White</h3>
+                <p>Find Love of Your Dogs live or Money Back</p>
+            </div>
+            <div class="features-box col-lg-4">
+                <i class="bi bi-radioactive"></i>
+           
+                <h3 class="feature-title">Dogs Block</h3>
+                <p>Find Love of Your Dogs live or </p>
+            </div>
+            
+        
+        
+        </div>
+    </section>
+    
+    <!--testimonials-->
+   
+   
+    <body class="container-fluid">
+        <div class="carousel slide carousel-dark" id="banner" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+           
+                    <img class="anand" src=".\images\dog3.webp"class="w-10 d-block"width="1500"height="700">
+                </div>
+                <div class="carousel-item" data-bs-interval="100">
+                    <img class="anand"src=".\images\8.webp"class="w-10 d-block"width="1500"height="700">
+                </div>
+                <div class="carousel-item" data-bs-interval="100">
+                    <img class="anand"src=".\images\2.webp"class="w-10 d-block"width="1500"height="700">
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img class="anand"src=".\images\5.webp"class="w-10 d-block"width="1500"height="700">
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img class="anand"src=".\images\12.webp"class="w-10 d-block"width="1500"height="700">
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img class="anand"src=".\images\15.webp"class="w-10 d-block"width="1500"height="700">
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img class="anand"src=".\images\17.webp"class="w-10 d-block"width="1500"height="700">
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img class="anand"src=".\images\20.webp"class="w-10 d-block"width="1500"height="700">
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img class="anand"src="C:\Users\DELL\Pictures\Camera Roll\New folder\16.webp"class="w-10 d-block"width="1500"height="700">
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img class="anand"src="C:\Users\DELL\Pictures\Camera Roll\New folder\17.webp"class="w-10 d-block"width="1500"height="700">
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img class="anand"src="C:\Users\DELL\Pictures\Camera Roll\New folder\21.webp"class="w-10 d-block"width="1500"height="700">
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img class="anand"src="C:\Users\DELL\Pictures\Camera Roll\New folder\22.webp"class="w-10 d-block"width="1500"height="700">
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img class="anand"src="C:\Users\DELL\Pictures\Camera Roll\New folder\23.webp"class="w-10 d-block"width="1500"height="700">
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img class="anand"src="C:\Users\DELL\Pictures\Camera Roll\New folder\24.webp"class="w-10 d-block"width="1500"height="700">
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img class="anand"src="C:\Users\DELL\Pictures\Camera Roll\New folder\25.webp"class="w-10 d-block"width="1500"height="700">
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img class="anand"src="C:\Users\DELL\Pictures\Camera Roll\New folder\28.webp"class="w-10 d-block"width="1500"height="700">
+                </div>
+                </div>
+                <button data-bs-slide="prev" data-bs-target="#banner" class="carousel-control-prev">
+                                 <span class="carousel-control-prev-icon"></span>
+                </button>
+            
+            <button data-bs-slide="next" data-bs-target="#banner" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                            <button class="active" data-bs-slide-to="0" data-bs-target="#banner"></button>
+                <button data-bs-slide-to="1" data-bs-target="#banner"></button>
+                <button data-bs-slide-to="2" data-bs-target="#banner"></button>
+                <button data-bs-slide-to="3" data-bs-target="#banner"></button>
+                <button data-bs-slide-to="4" data-bs-target="#banner"></button>
+                <button data-bs-slide-to="5" data-bs-target="#banner"></button>
+                <button data-bs-slide-to="6" data-bs-target="#banner"></button>
+                <button data-bs-slide-to="7" data-bs-target="#banner"></button>
+                <button data-bs-slide-to="8" data-bs-target="#banner"></button>
+                <button data-bs-slide-to="9" data-bs-target="#banner"></button>
+                <button data-bs-slide-to="10" data-bs-target="#banner"></button>
+                <button data-bs-slide-to="11" data-bs-target="#banner"></button>
+                <button data-bs-slide-to="12" data-bs-target="#banner"></button>
+                <button data-bs-slide-to="13" data-bs-target="#banner"></button>
+                <button data-bs-slide-to="14" data-bs-target="#banner"></button>
+                <button data-bs-slide-to="15" data-bs-target="#banner"></button>
+    
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+  
+
+
+
+  
+
+    <!---pricing-->
+    <section id="pricing">
+        <h2>Plan for every dogs needs</h2>
+        <p>Simple and Affordable price plan or your and your dog</p>
+        <div class="row">
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="sravan">Chihuahua</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="vinay">Free</h2>
+                        <p class="kumar">5 Matches per day</p>
+                        <p class="kumar">10 Messages per day</p>
+                        <p class="kumar">Unlimited app usage</p>
+                        <button class="btn btn-lg btn-block btn-dark"type="button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="sravan">mestiff</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="vinay">$99/mo</h2>
+                        
+                        <p class="kumar">unlimited matches</p>
+                        <p class="kumar">unlimited messages</p>
+                        <p class="kumar">unlimited app usage</p>
+                        <button class="btn btn-lg btn-block btn-dark" type="button">sign up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-column col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="sravan">labrador</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="vinay">$49/mo</h2>
+                        <p class="kumar">unlimited matches</p>
+                        <p class="kumar">unlimited messages</p>
+                        <p class="kumar">unlimited app usage</p>
+                        <button class="btn btn-lg btn-block btn-dark" type="button">sign up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <!--call to action-->
+
+    <section id="cta">
+        <h3 class="cta-heading">find the true love of your dogs's life today.</h3>
+        <button class="download-button btn btn -lg btn-dark" type="button"><i class="fab fa-apple"></i>download</button>
+
+        <button class="download-button btn btn -lg btn-light" type="button"><i
+                class="fab fa-google-play"></i>download</button>
+    </section>
+
+
+    <!---footer-->
+    <footer id="footer">
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+        <p>copyright 2022 tindog</p>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+    </body>
+    </html>
+
+
+
